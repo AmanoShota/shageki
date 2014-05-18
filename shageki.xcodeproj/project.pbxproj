@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61B6523C19296A6A00079763 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B6523B19296A6A00079763 /* Foundation.framework */; };
+		61B6523E19296A6A00079763 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B6523D19296A6A00079763 /* CoreGraphics.framework */; };
+		61B6524019296A6A00079763 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B6523F19296A6A00079763 /* UIKit.framework */; };
+		61B6524619296A6A00079763 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61B6524419296A6A00079763 /* InfoPlist.strings */; };
+		61B6524819296A6A00079763 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6524719296A6A00079763 /* main.m */; };
+		61B6524C19296A6A00079763 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6524B19296A6A00079763 /* AppDelegate.m */; };
+		61B6524F19296A6A00079763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61B6524D19296A6A00079763 /* Main.storyboard */; };
+		61B6525219296A6A00079763 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6525119296A6A00079763 /* ViewController.m */; };
+		61B6525419296A6A00079763 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B6525319296A6A00079763 /* Images.xcassets */; };
+		61B6525B19296A6A00079763 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B6525A19296A6A00079763 /* XCTest.framework */; };
+		61B6525C19296A6A00079763 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B6523B19296A6A00079763 /* Foundation.framework */; };
+		61B6525D19296A6A00079763 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B6523F19296A6A00079763 /* UIKit.framework */; };
+		61B6526519296A6A00079763 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61B6526319296A6A00079763 /* InfoPlist.strings */; };
+		61B6526719296A6A00079763 /* shagekiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6526619296A6A00079763 /* shagekiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61B6525E19296A6A00079763 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61B6523019296A6A00079763 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61B6523719296A6A00079763;
+			remoteInfo = shageki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61B6523819296A6A00079763 /* shageki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shageki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B6523B19296A6A00079763 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		61B6523D19296A6A00079763 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		61B6523F19296A6A00079763 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		61B6524319296A6A00079763 /* shageki-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shageki-Info.plist"; sourceTree = "<group>"; };
+		61B6524519296A6A00079763 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61B6524719296A6A00079763 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61B6524919296A6A00079763 /* shageki-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shageki-Prefix.pch"; sourceTree = "<group>"; };
+		61B6524A19296A6A00079763 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61B6524B19296A6A00079763 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61B6524E19296A6A00079763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61B6525019296A6A00079763 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61B6525119296A6A00079763 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61B6525319296A6A00079763 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		61B6525919296A6A00079763 /* shagekiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shagekiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B6525A19296A6A00079763 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		61B6526219296A6A00079763 /* shagekiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shagekiTests-Info.plist"; sourceTree = "<group>"; };
+		61B6526419296A6A00079763 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61B6526619296A6A00079763 /* shagekiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shagekiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61B6523519296A6A00079763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B6523E19296A6A00079763 /* CoreGraphics.framework in Frameworks */,
+				61B6524019296A6A00079763 /* UIKit.framework in Frameworks */,
+				61B6523C19296A6A00079763 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B6525619296A6A00079763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B6525B19296A6A00079763 /* XCTest.framework in Frameworks */,
+				61B6525D19296A6A00079763 /* UIKit.framework in Frameworks */,
+				61B6525C19296A6A00079763 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61B6522F19296A6A00079763 = {
+			isa = PBXGroup;
+			children = (
+				61B6524119296A6A00079763 /* shageki */,
+				61B6526019296A6A00079763 /* shagekiTests */,
+				61B6523A19296A6A00079763 /* Frameworks */,
+				61B6523919296A6A00079763 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61B6523919296A6A00079763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61B6523819296A6A00079763 /* shageki.app */,
+				61B6525919296A6A00079763 /* shagekiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61B6523A19296A6A00079763 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61B6523B19296A6A00079763 /* Foundation.framework */,
+				61B6523D19296A6A00079763 /* CoreGraphics.framework */,
+				61B6523F19296A6A00079763 /* UIKit.framework */,
+				61B6525A19296A6A00079763 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61B6524119296A6A00079763 /* shageki */ = {
+			isa = PBXGroup;
+			children = (
+				61B6524A19296A6A00079763 /* AppDelegate.h */,
+				61B6524B19296A6A00079763 /* AppDelegate.m */,
+				61B6524D19296A6A00079763 /* Main.storyboard */,
+				61B6525019296A6A00079763 /* ViewController.h */,
+				61B6525119296A6A00079763 /* ViewController.m */,
+				61B6525319296A6A00079763 /* Images.xcassets */,
+				61B6524219296A6A00079763 /* Supporting Files */,
+			);
+			path = shageki;
+			sourceTree = "<group>";
+		};
+		61B6524219296A6A00079763 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61B6524319296A6A00079763 /* shageki-Info.plist */,
+				61B6524419296A6A00079763 /* InfoPlist.strings */,
+				61B6524719296A6A00079763 /* main.m */,
+				61B6524919296A6A00079763 /* shageki-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61B6526019296A6A00079763 /* shagekiTests */ = {
+			isa = PBXGroup;
+			children = (
+				61B6526619296A6A00079763 /* shagekiTests.m */,
+				61B6526119296A6A00079763 /* Supporting Files */,
+			);
+			path = shagekiTests;
+			sourceTree = "<group>";
+		};
+		61B6526119296A6A00079763 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61B6526219296A6A00079763 /* shagekiTests-Info.plist */,
+				61B6526319296A6A00079763 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61B6523719296A6A00079763 /* shageki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B6526A19296A6A00079763 /* Build configuration list for PBXNativeTarget "shageki" */;
+			buildPhases = (
+				61B6523419296A6A00079763 /* Sources */,
+				61B6523519296A6A00079763 /* Frameworks */,
+				61B6523619296A6A00079763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shageki;
+			productName = shageki;
+			productReference = 61B6523819296A6A00079763 /* shageki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61B6525819296A6A00079763 /* shagekiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B6526D19296A6A00079763 /* Build configuration list for PBXNativeTarget "shagekiTests" */;
+			buildPhases = (
+				61B6525519296A6A00079763 /* Sources */,
+				61B6525619296A6A00079763 /* Frameworks */,
+				61B6525719296A6A00079763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61B6525F19296A6A00079763 /* PBXTargetDependency */,
+			);
+			name = shagekiTests;
+			productName = shagekiTests;
+			productReference = 61B6525919296A6A00079763 /* shagekiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61B6523019296A6A00079763 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ShotaAmano;
+				TargetAttributes = {
+					61B6525819296A6A00079763 = {
+						TestTargetID = 61B6523719296A6A00079763;
+					};
+				};
+			};
+			buildConfigurationList = 61B6523319296A6A00079763 /* Build configuration list for PBXProject "shageki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61B6522F19296A6A00079763;
+			productRefGroup = 61B6523919296A6A00079763 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61B6523719296A6A00079763 /* shageki */,
+				61B6525819296A6A00079763 /* shagekiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61B6523619296A6A00079763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B6525419296A6A00079763 /* Images.xcassets in Resources */,
+				61B6524619296A6A00079763 /* InfoPlist.strings in Resources */,
+				61B6524F19296A6A00079763 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B6525719296A6A00079763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B6526519296A6A00079763 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61B6523419296A6A00079763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B6525219296A6A00079763 /* ViewController.m in Sources */,
+				61B6524C19296A6A00079763 /* AppDelegate.m in Sources */,
+				61B6524819296A6A00079763 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B6525519296A6A00079763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B6526719296A6A00079763 /* shagekiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61B6525F19296A6A00079763 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61B6523719296A6A00079763 /* shageki */;
+			targetProxy = 61B6525E19296A6A00079763 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61B6524419296A6A00079763 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61B6524519296A6A00079763 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		61B6524D19296A6A00079763 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61B6524E19296A6A00079763 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61B6526319296A6A00079763 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61B6526419296A6A00079763 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61B6526819296A6A00079763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61B6526919296A6A00079763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61B6526B19296A6A00079763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shageki/shageki-Prefix.pch";
+				INFOPLIST_FILE = "shageki/shageki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		61B6526C19296A6A00079763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shageki/shageki-Prefix.pch";
+				INFOPLIST_FILE = "shageki/shageki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		61B6526E19296A6A00079763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/shageki.app/shageki";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shageki/shageki-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "shagekiTests/shagekiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		61B6526F19296A6A00079763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/shageki.app/shageki";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shageki/shageki-Prefix.pch";
+				INFOPLIST_FILE = "shagekiTests/shagekiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61B6523319296A6A00079763 /* Build configuration list for PBXProject "shageki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B6526819296A6A00079763 /* Debug */,
+				61B6526919296A6A00079763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B6526A19296A6A00079763 /* Build configuration list for PBXNativeTarget "shageki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B6526B19296A6A00079763 /* Debug */,
+				61B6526C19296A6A00079763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61B6526D19296A6A00079763 /* Build configuration list for PBXNativeTarget "shagekiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B6526E19296A6A00079763 /* Debug */,
+				61B6526F19296A6A00079763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61B6523019296A6A00079763 /* Project object */;
+}
